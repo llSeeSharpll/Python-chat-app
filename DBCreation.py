@@ -10,7 +10,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 #create the database then apply this python script
-SERVER = 'LAPTOP-A84E5O9M\SQLEXPRESS'
+SERVER = '#servername'
 DATABASE = 'chat_database'
 DRIVER = 'SQL Server Native Client 11.0'
 DATABASE_CONNECTION = f'mssql://{SERVER}/{DATABASE}?trusted_connection=yes&driver={DRIVER}'
