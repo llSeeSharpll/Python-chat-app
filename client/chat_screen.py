@@ -39,7 +39,7 @@ class chat_screen:
 
         self.master.protocol("WM_DELETE_WINDOW", self.on_closing)
         #----Now comes the sockets part----
-        self.HOST = '192.168.78.1'
+        self.HOST = ''#server host
         self.PORT = '33000'
         if not self.PORT:
             self.PORT = 33000
